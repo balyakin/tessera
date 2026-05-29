@@ -1,0 +1,11 @@
+Synthetic Tessera fixture source. The generated ODT/DOCX fixtures contain:
+
+- Heading 1
+- Text Body
+- Poem
+- Letter
+- Epigraph
+- Quote
+- Direct Thought
+- Foreign - Latin
+- Footnote

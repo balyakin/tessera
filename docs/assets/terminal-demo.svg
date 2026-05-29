@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360" role="img" aria-label="Tessera terminal demo">
+  <rect width="980" height="360" rx="8" fill="#101418"/>
+  <circle cx="28" cy="26" r="7" fill="#c94f4f"/>
+  <circle cx="52" cy="26" r="7" fill="#d7a84f"/>
+  <circle cx="76" cy="26" r="7" fill="#5fa86b"/>
+  <g font-family="monospace" font-size="22" fill="#d8dee9">
+    <text x="28" y="82">$ tessera demo --output tessera-demo</text>
+    <text x="28" y="128">Load config</text>
+    <text x="28" y="164">Render  EPUB</text>
+    <text x="28" y="200">Lint    EPUB</text>
+    <text x="28" y="250">Demo EPUB: tessera-demo/dist/semantic-demo.epub</text>
+    <text x="28" y="292">PDF with Docker: ghcr.io/balyakin/tessera:latest</text>
+  </g>
+</svg>

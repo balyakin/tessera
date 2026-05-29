@@ -1,0 +1,151 @@
+[document]
+default_language = "en"
+title = ""
+author = ""
+cover_image = ""
+cover_alt = ""
+
+[document.extra]
+rights = ""
+subject = ""
+isbn = ""
+keywords = ""
+series = ""
+series_position = ""
+word_count = ""
+
+[latex]
+document_class_options = "11pt,oneside"
+main_font = "EB Garamond"
+preamble_file = ""
+extra_preamble = []
+extra_macros = []
+
+[epub]
+custom_css = ""
+additional_fonts = []
+
+[toc]
+depth = 1
+title = ""
+include_in_pdf = false
+
+[style_matching]
+normalized_fallback = true
+
+[issues]
+suppress = []
+promote = []
+
+[limits]
+max_blocks = 50000
+max_footnotes = 5000
+max_table_cells = 100000
+max_inline_depth = 16
+
+[output]
+reproducible = false
+
+[paragraph_styles]
+"Standard" = { role = "body" }
+"Default Paragraph Style" = { role = "body" }
+"Normal" = { role = "body" }
+"Text Body" = { role = "body" }
+"Body Text" = { role = "body" }
+"Основной текст" = { role = "body" }
+"Обычный" = { role = "body" }
+"Абзац" = { role = "body" }
+
+"Title" = { role = "title" }
+"Название" = { role = "title" }
+"Заголовок" = { role = "title" }
+"Subtitle" = { role = "subtitle" }
+"Подзаголовок" = { role = "subtitle" }
+
+"Heading 1" = { role = "heading", level = 1 }
+"Heading 2" = { role = "heading", level = 2 }
+"Heading 3" = { role = "heading", level = 3 }
+"Heading 4" = { role = "heading", level = 4 }
+"Heading 5" = { role = "heading", level = 5 }
+"Heading 6" = { role = "heading", level = 6 }
+"Заголовок 1" = { role = "heading", level = 1 }
+"Заголовок 2" = { role = "heading", level = 2 }
+"Заголовок 3" = { role = "heading", level = 3 }
+"Заголовок 4" = { role = "heading", level = 4 }
+"Заголовок 5" = { role = "heading", level = 5 }
+"Заголовок 6" = { role = "heading", level = 6 }
+
+"Poem" = { role = "verse" }
+"Verse" = { role = "verse" }
+"Poetry" = { role = "verse" }
+"Стих" = { role = "verse" }
+"Стихотворение" = { role = "verse" }
+"Поэзия" = { role = "verse" }
+
+"Letter" = { role = "letter" }
+"Письмо" = { role = "letter" }
+"Epigraph" = { role = "epigraph" }
+"Эпиграф" = { role = "epigraph" }
+"Block Quote" = { role = "blockquote" }
+"Quote" = { role = "blockquote" }
+"Quotations" = { role = "blockquote" }
+"Citation" = { role = "blockquote" }
+"Цитата" = { role = "blockquote" }
+"Цитирование" = { role = "blockquote" }
+
+"Dedication" = { role = "dedication" }
+"Посвящение" = { role = "dedication" }
+"Colophon" = { role = "colophon" }
+"Колофон" = { role = "colophon" }
+"Glossary Entry" = { role = "glossary" }
+"Glossary" = { role = "glossary" }
+"Глоссарий" = { role = "glossary" }
+"Half Title" = { role = "halftitle" }
+"Авантитул" = { role = "halftitle" }
+
+[character_styles]
+"Emphasis" = { role = "emphasis" }
+"Курсив" = { role = "emphasis" }
+"Выделение" = { role = "emphasis" }
+"Strong Emphasis" = { role = "strong" }
+"Strong" = { role = "strong" }
+"Bold" = { role = "strong" }
+"Полужирный" = { role = "strong" }
+"Direct Thought" = { role = "thought" }
+"Thought" = { role = "thought" }
+"Мысль" = { role = "thought" }
+"Прямая мысль" = { role = "thought" }
+"Prayer" = { role = "prayer" }
+"Молитва" = { role = "prayer" }
+"Creative Work" = { role = "work-title" }
+"Work Title" = { role = "work-title" }
+"Название произведения" = { role = "work-title" }
+"Произведение" = { role = "work-title" }
+
+"Foreign - Latin" = { role = "foreign", lang = "la" }
+"Foreign - Occitan" = { role = "foreign", lang = "oc" }
+"Foreign - French" = { role = "foreign", lang = "fr" }
+"Foreign - German" = { role = "foreign", lang = "de" }
+"Foreign - Italian" = { role = "foreign", lang = "it" }
+"Foreign - Spanish" = { role = "foreign", lang = "es" }
+"Foreign - Greek" = { role = "foreign", lang = "el" }
+"Foreign - Hebrew" = { role = "foreign", lang = "he" }
+"Иностранный - Латынь" = { role = "foreign", lang = "la" }
+"Иностранный - Французский" = { role = "foreign", lang = "fr" }
+"Иностранный - Немецкий" = { role = "foreign", lang = "de" }
+"Иностранный - Итальянский" = { role = "foreign", lang = "it" }
+"Иностранный - Испанский" = { role = "foreign", lang = "es" }
+"Иностранный - Греческий" = { role = "foreign", lang = "el" }
+"Иностранный - Иврит" = { role = "foreign", lang = "he" }
+
+[languages]
+"en" = "english"
+"ru" = "russian"
+"la" = "latin"
+"oc" = "occitan"
+"fr" = "french"
+"de" = "german"
+"it" = "italian"
+"es" = "spanish"
+"el" = "greek"
+"he" = "hebrew"

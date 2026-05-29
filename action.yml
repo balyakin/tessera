@@ -1,0 +1,19 @@
+name: Tessera
+description: Build book artifacts with Tessera
+inputs:
+  input:
+    description: Input DOCX or ODT path
+    required: true
+  output:
+    description: Output directory
+    default: dist
+  args:
+    description: Extra Tessera build arguments
+    default: ""
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: |
+        docker run --rm -v "$GITHUB_WORKSPACE:/work" ghcr.io/balyakin/tessera:latest \
+          build "/work/${{ inputs.input }}" --output "/work/${{ inputs.output }}" ${{ inputs.args }}

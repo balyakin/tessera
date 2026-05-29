@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-label="Screenshot of Tessera building an EPUB in the terminal">
+  <rect width="1120" height="520" fill="#f4f1ea"/>
+  <rect x="40" y="36" width="1040" height="448" rx="8" fill="#12161b"/>
+  <rect x="40" y="36" width="1040" height="48" rx="8" fill="#1d232b"/>
+  <circle cx="70" cy="60" r="7" fill="#d85b5b"/>
+  <circle cx="94" cy="60" r="7" fill="#e0b456"/>
+  <circle cx="118" cy="60" r="7" fill="#62b078"/>
+  <text x="552" y="66" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" text-anchor="middle" fill="#98a2ad">tessera build</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#d9e0e8">
+    <text x="72" y="132"><tspan fill="#7dd3a7">$</tspan> tessera build examples/semantic-demo.docx --to epub --output dist --lint --stats</text>
+    <text x="72" y="190" fill="#eef2f7">Build complete</text>
+
+    <text x="72" y="250" fill="#98a2ad">Artifacts</text>
+    <text x="108" y="288"><tspan fill="#7dd3a7">EPUB</tspan>  dist/semantic-demo.epub</text>
+
+    <text x="72" y="348" fill="#98a2ad">Document Statistics</text>
+    <text x="108" y="386">Words      49</text>
+    <text x="108" y="422">Chapters   1</text>
+    <text x="108" y="458">Footnotes  1</text>
+  </g>
+</svg>

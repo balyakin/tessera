@@ -1,0 +1,41 @@
+@namespace epub "http://www.idpf.org/2007/ops";
+
+html {
+  font-size: 1em;
+}
+
+body {
+  line-height: 1.45;
+  margin: 5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+blockquote[epub|type~="z3998:poem"] {
+  margin: 1em 2em;
+}
+
+blockquote[epub|type~="z3998:poem"] p {
+  margin: 0;
+}
+
+figure {
+  margin: 1em 0;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 0.05em solid #666;
+  padding: 0.25em;
+}

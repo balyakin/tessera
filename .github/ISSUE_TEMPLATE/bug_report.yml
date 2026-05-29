@@ -1,0 +1,15 @@
+name: Bug report
+description: Report a reproducible Tessera problem
+body:
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps

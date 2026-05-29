@@ -1,0 +1,32 @@
+name: Release
+on:
+  push:
+    tags:
+      - 'v*'
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.24.x'
+      - run: make release
+      - run: |
+          mkdir -p dist/sbom
+          for f in dist/tessera-*; do echo "SBOM placeholder for $f" > "dist/sbom/$(basename "$f").sbom"; done
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/*
+            dist/sbom/*
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - run: docker build -t ghcr.io/balyakin/tessera:${{ github.ref_name }} -t ghcr.io/balyakin/tessera:latest .
+      - run: docker push ghcr.io/balyakin/tessera:${{ github.ref_name }} && docker push ghcr.io/balyakin/tessera:latest

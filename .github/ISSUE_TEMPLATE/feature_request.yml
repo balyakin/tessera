@@ -1,0 +1,11 @@
+name: Feature request
+description: Suggest a Tessera improvement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal

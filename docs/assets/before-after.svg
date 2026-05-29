@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" role="img" aria-label="Before and after semantic conversion">
+  <rect width="1100" height="520" fill="#ffffff"/>
+  <rect x="60" y="70" width="450" height="360" rx="8" fill="#f3f3f3" stroke="#999"/>
+  <rect x="590" y="70" width="450" height="360" rx="8" fill="#f1f7f4" stroke="#2f7d64"/>
+  <text x="80" y="120" font-family="sans-serif" font-size="32" fill="#111">Generic conversion</text>
+  <text x="610" y="120" font-family="sans-serif" font-size="32" fill="#111">Tessera</text>
+  <text x="80" y="180" font-family="monospace" font-size="22" fill="#333">italic text</text>
+  <text x="80" y="224" font-family="monospace" font-size="22" fill="#333">indented lines</text>
+  <text x="80" y="268" font-family="monospace" font-size="22" fill="#333">unknown style spans</text>
+  <text x="610" y="180" font-family="monospace" font-size="22" fill="#1b4b3a">\semThought{...}</text>
+  <text x="610" y="224" font-family="monospace" font-size="22" fill="#1b4b3a">epub:type="z3998:poem"</text>
+  <text x="610" y="268" font-family="monospace" font-size="22" fill="#1b4b3a">xml:lang="la"</text>
+</svg>
