@@ -224,7 +224,6 @@ go run ./internal/demo/generate
 - [Docker image](docs/docker.md)
 - [GitHub Action](docs/github-action.md)
 - [Roadmap](docs/roadmap.md)
-- [Launch plan](docs/launch-plan.md)
 
 ## Project Status
 
